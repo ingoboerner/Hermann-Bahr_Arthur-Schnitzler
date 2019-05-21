@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Hermann Bahr – Arthur Schnitzler</description>
+    <author>Martin Anton Müller</author>
+    <author>Kurt Ifkovits</author>
+    <author>Ingo Börner</author>
+    <website>https://bahrschnitzler.acdh.oeaw.ac.at</website>
+    <status>beta</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>hbas</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+<deployed>2019-05-16T12:15:45.079+02:00</deployed>
+</meta>

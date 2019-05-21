@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+    <div class="row">
+            <div id="sidebar" class="col-sm-3">
+                <div class="sidebar-nav">
+                    <div data-template="app:page-title"/>
+                    <div data-template="app:nav"/>
+                    <!-- 
+                    <div data-template="app:inhalt-liste"/>
+                    -->
+                    
+                </div> <!-- /sidebar-nav -->
+                <!-- weitere Sidebar-Elemente --> 
+                 <form class="filter_form">
+        <!-- 
+        <select id="select-view-mode" class="custom-select">
+            <option>Leseansicht</option>
+            <option>Erweiterte Ansicht</option>
+        </select>
+        -->
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="check_auszeichnungen"> Markierungen</input>
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="check_anhang" data-toggle="collapse" data-target="#anhang"> Anhang</input>
+            </label>
+        </div>
+        
+    </form>
+                
+                <!-- <div data-template="app:prev-next"/> -->
+                <!--
+                <nav class="prev-next-pager">
+                                <ul class="pagerNew">
+                                    <li class="next">
+                        <a id="next" href="view.html?id=D041004&type=&show=&view-mode=1">
+                            <span class="pager-button">></span>
+                            <span class="pager-title">Tagebuch von Arthur Schnitzler, 28. 4. 1891</span>
+                        </a>
+                    </li>
+                                </ul>
+                            </nav>
+                            -->
+            </div> <!-- col-sm-3 = sidebar -->
+            <div id="content" class="col-sm-9">
+                <div data-template="app:page_view" data-template-id="D041003"/>
+            </div>
+</div>
+    <script>
+     $(document).ready(function() {
+        
+        $("#check_anhang").click(function() {
+           $(".anhang").toggle(this.checked);
+        });
+        
+        $("#check_auszeichnungen").click(function() {
+           $(".text-box").toggleClass("leseansicht");
+        });
+        
+     });
+    </script>
+</div>
