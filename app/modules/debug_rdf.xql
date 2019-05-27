@@ -9,19 +9,20 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
     xmlns:schema="http://schema.org/"
+    xmlns:dct="http://purl.org/dc/terms/"
 >
                         {
- (: lod:person("A002001")  :)
+(: lod:person("A002001")  :)
  
   (: lod:place("A000250") :)
   
-  (: lod:place("A000313") :)
+(:   :lod:place("A000313") :)
 
-(: lod:resource("D041003") :)
+lod:resource("D041003") 
  
-(:  lod:resource("L041527") :)
+(:   :lod:resource("L041527") :)
  
-lod:resource("L041000")
+(:  lod:resource("L041000") :)
 
 }
 </rdf:RDF>

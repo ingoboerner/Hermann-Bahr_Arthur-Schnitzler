@@ -141,6 +141,9 @@ declare function lod:resource($id) {
     (: mentions :)
     let $mentions := lod:getMentions($id)
     
+    (: Schnitzlertagebuch :)
+    let $stb := if (substring($id,1,1) eq "D" ) then local:getTagebuch($id) else () 
+    
     return 
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
             {
@@ -155,6 +158,7 @@ declare function lod:resource($id) {
             <crm:P2_has_type rdf:resource="{$doctype}"/>, 
             <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$id}"/>,
             $theatermuseum ,
+            $stb ,
             $mentions
             
             )
@@ -248,16 +252,9 @@ declare function local:getDocumentTypeURI($id) {
     
     let $sigla := substring($id, 1,1) 
     let $doc := collection($config:data-root)/id($id)
-    
-    let $type := switch (substring($id,1,1)) 
+    let $type_in_openrefine := collection($lod:additonal_data-root)/id("openrefine")//row[contains(./id/text(),$id)]
         
-        case "T" return "text"
-        case "D" return "document"
-        case "L" return "letter"
-        
-        default return "unknown"
-        
-    let $uri := "http://bahrschnitzler.acdh.oeaw.ac.at/type/" || $type
+    let $uri := "http://bahrschnitzler.acdh.oeaw.ac.at/type/" || $type_in_openrefine/type/string()
     
     
     return 
@@ -379,8 +376,18 @@ declare function local:getTheatermuseumID($id as xs:string) {
     return
         (: <crm:P1_is_identified_by rdf:resource="{$tm-uri}"/> :)
         ( 
-            <rdfs:seeAlso>{$theatermuseum-uri}</rdfs:seeAlso> ,
+            <rdfs:seeAlso rdf:resource="{$theatermuseum-uri}"/> ,
             $theatermuseum-identifier ,
             <owl:sameAs>{$perma-uri}</owl:sameAs>
         )
+};
+
+declare function local:getTagebuch($id as xs:string) {
+    let $openrefine := collection($lod:additonal_data-root)/id("openrefine")//row[contains(./id/text(),$id)]
+    return
+        if ($openrefine/STB != "") then
+            ( 
+                <owl:sameAs rdf:resource="{$openrefine/ARCHE_id/text()}"/> 
+            )
+            else ()
 };
