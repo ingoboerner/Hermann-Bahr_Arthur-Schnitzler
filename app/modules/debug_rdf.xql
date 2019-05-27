@@ -11,7 +11,7 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
     xmlns:schema="http://schema.org/"
 >
                         {
-(:  lod:person("A002001") :)
+ (: lod:person("A002001")  :)
  
   (: lod:place("A000250") :)
   
@@ -19,9 +19,9 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 
 (: lod:resource("D041003") :)
  
-(:   lod:resource("L041527") :)
+(:  lod:resource("L041527") :)
  
- lod:resource("L041000") 
+lod:resource("L041000")
 
 }
 </rdf:RDF>

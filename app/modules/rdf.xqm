@@ -9,6 +9,8 @@ module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod";
 import module namespace config="http://hbas.at/config" at "config.xqm";
 import module namespace api="http://bahrschnitzler.acdh.oeaw.ac.at/api" at "api.xqm";
 
+import module namespace http="http://expath.org/ns/http-client";
+
 (: look up namespaces! :)
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace custom="https://bahrschnitzler.acdh.oeaw.ac.at/ns";
@@ -38,15 +40,11 @@ declare function lod:person($id as xs:string) {
         let $label := $surname || ", " || $forename
         
         return
-        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/person/{$id}">
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
             <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
             <rdfs:label>{$label}</rdfs:label>
             <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$id}"/>
-            {
-                if ($gnd != "") then
-                    <crm:P1_is_identified_by rdf:resource="{$gnd}"/>    
-                else ()
-            }
+            <owl:sameAs rdf:resource="{$gnd}"/>
         </rdf:Description>
         
 };
@@ -69,7 +67,7 @@ declare function lod:place($id) {
     let $wienwiki := normalize-space($additional_data//tei:idno[@subtype="WIENWIKI"]/string())
      return
          
-        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/place/{$id}">
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
             <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
             
             <crm:P1_is_identified_by>
@@ -144,7 +142,7 @@ declare function lod:resource($id) {
     let $mentions := lod:getMentions($id)
     
     return 
-        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/document/{$id}">
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
             {
                 
             (
@@ -153,9 +151,10 @@ declare function lod:resource($id) {
             $creation ,
             $corresp-events ,
             $date,
+            <crm:P2_has_type rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/type/{substring($id,1,1)}"/> ,
             <crm:P2_has_type rdf:resource="{$doctype}"/>, 
             <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$id}"/>,
-            <crm:P1_is_identified_by>{$theatermuseum}</crm:P1_is_identified_by> ,
+            $theatermuseum ,
             $mentions
             
             )
@@ -233,7 +232,7 @@ declare function lod:getMentions($id as xs:string) {
         (: loop over all Elements with a @key-Attribute – and hope, that these are the mentions.. :)
         for $key in distinct-values(collection($config:data-root)/id($id)//tei:body//element()[@key]/@key/string())
         return
-            <schema:mentions xmlns:schema="http://schema.org/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/{local:getEntityType($key)}/{$key}"/>
+            <schema:mentions xmlns:schema="http://schema.org/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$key}"/>
    
 
 else
@@ -272,7 +271,7 @@ declare function local:generateCreationActivities($id) {
       <rdf:Description>
         { 
             for $creator in local:getAuthorsOfDoc($id) return 
-                <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/person/{$creator}"/>
+                <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$creator}"/>
         }
       </rdf:Description>
     </crm:P94i_was_created_by>
@@ -319,11 +318,11 @@ declare function lod:getCorrespondenceEvents($id as xs:string) {
                 <crm:P2_has_type rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/type/SendingOfLetter"/>
                 {
                     for $sender in $senders return
-                        <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/person/{$sender}"/>
+                        <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$sender}"/>
                 }
                 {
                     for $place in $placeSender return
-                        <crm:P7_took_place_at rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/place/{$place}"/>
+                        <crm:P7_took_place_at rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$place}"/>
                 }
                 {
                     <crm:P4_has_time-span>
@@ -344,11 +343,11 @@ declare function lod:getCorrespondenceEvents($id as xs:string) {
                 <crm:P2_has_type rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/type/ReceivingOfLetter"/>
                 {
                     for $addressee in $addressees return
-                        <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/person/{$addressee}"/>
+                        <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$addressee}"/>
                 }
                 {
                     for $place in $placeAddressee return
-                        <crm:P7_took_place_at rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/place/{$place}"/>
+                        <crm:P7_took_place_at rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$place}"/>
                 }
             </crm:E7_Activity>
         </crm:P12i_was_present_at>
@@ -359,6 +358,29 @@ declare function lod:getCorrespondenceEvents($id as xs:string) {
 
 declare function local:getTheatermuseumID($id as xs:string) {
     let $signatur := collection($config:data-root)/id($id)//tei:msIdentifier[contains(./tei:repository,'Theatermuseum')]/tei:idno/string()
+    let $tm-query-id := "HS_" || replace(substring-after($signatur,'HS '),' ','')
+    let $request-url := "https://www.theatermuseum.at/onlinesammlung/?rand=3&amp;extended=1&amp;id=11694&amp;L=0&amp;ext[object_number]=HS_AM23337Ba&amp;ext[dated-from-acad]=ad&amp;ext[dated-to-acad]=ad&amp;view=0&amp;type=686&amp;no_cache=1&amp;jsrand=0.7411997926468572"
+    let $request := <http:request href="{$request-url}" method="GET"/>
+    let $response := http:send-request($request)
+    
+    let $theatermuseum-uri := substring-before($response[2]//element()[@id="object-list"]//element()[@data-id][1]/@href/string(),'/?offset')
+    (: let $tm-query-string := xmldb:encode-uri("&amp;") :)
+    
+    (: try to get permalink :)
+    let $request2 := <http:request href="{$theatermuseum-uri}" method="GET"/>
+    let $permalink := http:send-request($request2)[2]//element()[@class="permalink"]//element()[@href]/@href/string()
+    let $perma-uri := substring($permalink, 1 , string-length($permalink)-1) 
+    
+    let $theatermuseum-identifier := <crm:P1_is_identified_by>
+                                        <crm:E42_Identifier>{$signatur}</crm:E42_Identifier>
+                                    </crm:P1_is_identified_by>
+        
+    
     return
-        $signatur
+        (: <crm:P1_is_identified_by rdf:resource="{$tm-uri}"/> :)
+        ( 
+            <rdfs:seeAlso>{$theatermuseum-uri}</rdfs:seeAlso> ,
+            $theatermuseum-identifier ,
+            <owl:sameAs>{$perma-uri}</owl:sameAs>
+        )
 };
