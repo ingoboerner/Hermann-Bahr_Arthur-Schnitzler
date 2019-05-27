@@ -12,15 +12,16 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 >
                         {
 (:  lod:person("A002001") :)
-
-(:  lod:place("A000250") :)
+ 
+  (: lod:place("A000250") :)
+  
+  (: lod:place("A000313") :)
 
 (: lod:resource("D041003") :)
  
- lod:resource("L041527")
+(:   lod:resource("L041527") :)
  
-
-(: lod:resource("L041408") :)
+ lod:resource("L041000") 
 
 }
 </rdf:RDF>
