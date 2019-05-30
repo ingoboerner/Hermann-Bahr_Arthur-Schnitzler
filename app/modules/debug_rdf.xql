@@ -10,19 +10,34 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
     xmlns:schema="http://schema.org/"
     xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:frbr="http://iflastandards.info/ns/fr/frbr/frbroo/"
 >
                         {
-(: lod:person("A002001")  :)
+ (: lod:person("A002001")  :) 
  
   (: lod:place("A000250") :)
   
-(:   :lod:place("A000313") :)
+  (: lod:place("A000313") :) 
 
-lod:resource("D041003") 
+ (: lod:resource("D041003") :)
  
-(:   :lod:resource("L041527") :)
+(:  lod:resource("L041527") :)
  
-(:  lod:resource("L041000") :)
+  (: lod:resource("L041000") :)
+ 
+ (: lod:institution("A080353") :)
+ 
+ (: lod:institution("A081046") :)
+ 
+ (: lod:institution("A081246") :)
+ 
+ (: lod:institution("A081592") :)
+ 
+   lod:work("A020000") 
+ 
+ 
+ 
+ 
 
 }
 </rdf:RDF>

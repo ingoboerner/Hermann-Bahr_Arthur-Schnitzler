@@ -23,6 +23,7 @@ declare namespace gndo="http://d-nb.info/standards/elementset/gnd#" ;
 declare namespace owl="http://www.w3.org/2002/07/owl#" ; 
 declare namespace schema="http://schema.org/" ;
 declare namespace geo="http://www.opengis.net/ont/geosparql#" ;
+declare namespace frbr="http://iflastandards.info/ns/fr/frbr/frbroo/" ;
 
 
 declare variable $lod:additonal_data-root := $config:app-root || "/additional_data";
@@ -43,6 +44,14 @@ declare function lod:person($id as xs:string) {
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
             <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
             <rdfs:label>{$label}</rdfs:label>
+            
+            <crm:P1_is_identified_by>
+                <crm:E41_Appellation>
+                    <rdfs:label xml:lang="de">{$label}</rdfs:label>
+                </crm:E41_Appellation>
+            </crm:P1_is_identified_by>
+            
+            
             <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$id}"/>
             <owl:sameAs rdf:resource="{$gnd}"/>
         </rdf:Description>
@@ -358,14 +367,14 @@ declare function local:getTheatermuseumID($id as xs:string) {
     let $tm-query-id := "HS_" || replace(substring-after($signatur,'HS '),' ','')
     let $request-url := "https://www.theatermuseum.at/onlinesammlung/?rand=3&amp;extended=1&amp;id=11694&amp;L=0&amp;ext[object_number]=HS_AM23337Ba&amp;ext[dated-from-acad]=ad&amp;ext[dated-to-acad]=ad&amp;view=0&amp;type=686&amp;no_cache=1&amp;jsrand=0.7411997926468572"
     let $request := <http:request href="{$request-url}" method="GET"/>
-    let $response := http:send-request($request)
+    let $response := try { http:send-request($request) } catch * { () }
     
     let $theatermuseum-uri := substring-before($response[2]//element()[@id="object-list"]//element()[@data-id][1]/@href/string(),'/?offset')
     (: let $tm-query-string := xmldb:encode-uri("&amp;") :)
     
     (: try to get permalink :)
     let $request2 := <http:request href="{$theatermuseum-uri}" method="GET"/>
-    let $permalink := http:send-request($request2)[2]//element()[@class="permalink"]//element()[@href]/@href/string()
+    let $permalink := try { http:send-request($request2)[2]//element()[@class="permalink"]//element()[@href]/@href/string() } catch * { () }
     let $perma-uri := substring($permalink, 1 , string-length($permalink)-1) 
     
     let $theatermuseum-identifier := <crm:P1_is_identified_by>
@@ -376,9 +385,9 @@ declare function local:getTheatermuseumID($id as xs:string) {
     return
         (: <crm:P1_is_identified_by rdf:resource="{$tm-uri}"/> :)
         ( 
-            <rdfs:seeAlso rdf:resource="{$theatermuseum-uri}"/> ,
+            if ( $theatermuseum-uri ) then <rdfs:seeAlso rdf:resource="{$theatermuseum-uri}"/> else () ,
             $theatermuseum-identifier ,
-            <owl:sameAs>{$perma-uri}</owl:sameAs>
+            if ( $theatermuseum-uri ) then <owl:sameAs rdf:resource="{$perma-uri}"/> else ()
         )
 };
 
@@ -390,4 +399,93 @@ declare function local:getTagebuch($id as xs:string) {
                 <owl:sameAs rdf:resource="{$openrefine/ARCHE_id/text()}"/> 
             )
             else ()
+};
+
+(:~ Outputs data of an Institution CIDOC-like :)
+declare function lod:institution($id) {
+    (: some work has to be done, e.g. location in the TEI File is not rendered, but there has to be the Information added :)
+    let $data := collection($config:data-root)/id($id)
+    let $labels := for $label in $data/tei:orgName/text() return <rdfs:label>{$label}</rdfs:label>
+    let $entitytype := if ($data/@type) then "http://bahrschnitzler.acdh.oeaw.ac.at/type/" || $data/@type else  () (: replace($data/tei:desc/string(),' ','_')  :)
+    return
+        
+        if ($data/tei:orgName != "") then
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
+            {
+            (
+            <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>,
+            $labels ,
+            <crm:P1_is_identified_by>
+                <crm:E41_Appellation>
+                    <rdfs:label xml:lang="de">{$labels/text()}</rdfs:label>
+                </crm:E41_Appellation>
+            </crm:P1_is_identified_by> ,
+            if ($data/@type) then <crm:P2_has_type rdf:resource="{$entitytype}"/> else (), 
+            <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$id}"/>
+            (:,$data:)
+            )
+                
+            }
+        </rdf:Description>
+        else ()
+};
+
+(:~ Create frbr works :)
+declare function lod:work($id) {
+    let $data := collection($config:data-root)/id($id)
+    let $authors_for_labels := for $author in $data/tei:titleStmt/tei:author  return $author//tei:persName/tei:forename ||  " " || $author/tei:persName/tei:surname 
+    let $labels := for $label in $data/tei:titleStmt/tei:title return
+        <rdfs:label>{$label/text() || ' [Werk von ' || string-join($authors_for_labels,';') || ']'  }</rdfs:label>
+    
+    
+    
+    let $frbr_work :=
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
+            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F1"/>
+            {
+                $labels ,
+                <frbr:R16i>
+                    <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F27"/>
+                    <rdfs:label xml:lang="de">Konzeption des Werkes {$id}</rdfs:label>
+                    {
+                        for $creator in $data/tei:titleStmt/tei:author
+                        return
+                            <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{substring-after($creator/@ref,'#')}"/>
+                    }
+                </frbr:R16i>,
+                <frbr:R19i>
+                    <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F28"/>
+                    <rdfs:label>Expression Creation Event of {$id}</rdfs:label>
+                    {
+                        for $creator in $data/tei:titleStmt/tei:author
+                        return
+                            <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{substring-after($creator/@ref,'#')}"/>
+                    }
+                </frbr:R19i>
+            }
+        </rdf:Description>
+        
+        let $frbr_F22 := 
+                        (: Maybe do F22 Self Contained Expression here :)
+                        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F22">
+                            <!-- Maybe do F22 Self Contained Expression -->
+                            <rdfs:label xml:lang="de">F22 Self Contained Expression zu Werk {$id}</rdfs:label>
+                            <!-- <frbr:R4 rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F3"/> -->
+                        </rdf:Description>
+        
+        let $frbr_F3 := 
+        
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F3">
+            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F3"/>
+            <rdfs:label xml:lang="de">F3 Manifestation Product Type zu Werk {$id}</rdfs:label>
+            <!-- <frbr:R4i rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F22"/> -->
+        </rdf:Description> 
+    
+    return
+        (
+        $frbr_work ,
+        $frbr_F22,
+        $frbr_F3,
+        $data
+        )
 };
