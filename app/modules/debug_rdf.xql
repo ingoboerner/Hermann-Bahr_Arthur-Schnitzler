@@ -10,7 +10,7 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
     xmlns:schema="http://schema.org/"
     xmlns:dct="http://purl.org/dc/terms/"
-    xmlns:frbr="http://iflastandards.info/ns/fr/frbr/frbroo/"
+    xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
 >
                         {
  (: lod:person("A002001")  :) 
@@ -21,7 +21,7 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 
  (: lod:resource("D041003") :)
  
-(:  lod:resource("L041527") :)
+  (: lod:resource("L041527") :)
  
   (: lod:resource("L041000") :)
  
@@ -33,7 +33,19 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
  
  (: lod:institution("A081592") :)
  
-   lod:work("A020000") 
+(:  lod:work("A020000") :)
+
+(:  lod:work("A020001") :)
+
+(:  lod:work("A020320") :)
+
+(:  lod:work("A020366") :)
+
+(: lod:work("A020008") :) 
+
+lod:work("A020021")
+
+
  
  
  

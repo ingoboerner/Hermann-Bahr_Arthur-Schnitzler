@@ -23,7 +23,7 @@ declare namespace gndo="http://d-nb.info/standards/elementset/gnd#" ;
 declare namespace owl="http://www.w3.org/2002/07/owl#" ; 
 declare namespace schema="http://schema.org/" ;
 declare namespace geo="http://www.opengis.net/ont/geosparql#" ;
-declare namespace frbr="http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+declare namespace frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/" ;
 
 
 declare variable $lod:additonal_data-root := $config:app-root || "/additional_data";
@@ -437,55 +437,186 @@ declare function lod:work($id) {
     let $labels := for $label in $data/tei:titleStmt/tei:title return
         <rdfs:label>{$label/text() || ' [Werk von ' || string-join($authors_for_labels,';') || ']'  }</rdfs:label>
     
+    (: zusätzliche ids :)
+    let $frbroo_F27id := util:uuid() (: has to be stored somewhere :)
+    let $frbroo_F28id := util:uuid()
+    let $frbroo_F30id := util:uuid()
     
     
-    let $frbr_work :=
+    (: Work :)
+    let $frbroo_F1 :=
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
-            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F1"/>
+              <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work"/>
+              {
+                  $labels
+              }
+              {(: <frbroo:R3_is_realised_in rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F2"/> :) ()}
+              <frbroo:R16i_was_initiated_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F27id}"/> {(: Konzeptionierungsevent :)()}
+              <frbroo:R19i_was_realised_through rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F28id}"/> {(: Expression creation event :)()}
+              <frbroo:R40_has_representative_expression rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F22"/> {(: verknüpft mit der repräsentativen expression F22 :) ()}
+        </rdf:Description>
+        
+    (: Expression :)
+    (: will remove this for now and replace with f22 :)
+    (: let $frbroo_F2 :=
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F2">
+              <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2_Expression"/>
+              <rdfs:label xml:lang="de">F2 Expression zu F1 Werk {$data/tei:titleStmt/tei:title/text()} [{$id}]</rdfs:label>
+              <frbroo:R3i_realises rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}"/>
+              <frbroo:R17i_was_created_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F28id}"/>
+        </rdf:Description> 
+        :)
+    
+    (: F22 Self Contained Expression :)
+    (: Der Unterschied zwischen Expression und Self Contained Expression ist mir nicht ganz klar :)
+    let $frbroo_F22 := 
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F22">
+            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self_Contained_Expression"/>
+            <rdfs:label>Repräsentative Expression zu {$data/tei:titleStmt/tei:title/text()}</rdfs:label>
+            <frbroo:R40i_is_representative_expression_for rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}"/>
             {
-                $labels ,
-                <frbr:R16i>
-                    <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F27"/>
-                    <rdfs:label xml:lang="de">Konzeption des Werkes {$id}</rdfs:label>
-                    {
-                        for $creator in $data/tei:titleStmt/tei:author
-                        return
-                            <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{substring-after($creator/@ref,'#')}"/>
-                    }
-                </frbr:R16i>,
-                <frbr:R19i>
-                    <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F28"/>
-                    <rdfs:label>Expression Creation Event of {$id}</rdfs:label>
-                    {
-                        for $creator in $data/tei:titleStmt/tei:author
-                        return
-                            <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{substring-after($creator/@ref,'#')}"/>
-                    }
-                </frbr:R19i>
+                (: möglicherweise könnte man hier das Expression Creation Event verwenden; das hatte ich vorher für die Expression :)
+                <frbroo:R17i_was_created_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F28id}"/>
+            }
+            <frbroo:R4_carriers_provided_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F3"/>
+            
+        </rdf:Description>
+    
+    
+    (: Aktivität, durch die das Werk entwickelt wird :)   
+    let $frbroo_F27 := 
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F27id}">
+              <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F27_Work_Conception"/>
+              <rdfs:label xml:lang="de">Konzeptionierungsphase zu {$data/tei:titleStmt/tei:title/text()} [{$id}]</rdfs:label>
+                {
+                    for $creator in $data/tei:titleStmt/tei:author
+                    return
+                        <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{substring-after($creator/@ref,'#')}"/>
+                }
+                <frbroo:R16_initiated rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}"/>
+        </rdf:Description>
+    
+    (: Expression Creation event :)
+    (: hab ich vorher für F2 verwendet, jetzt für die Repräsentative Expression F22 :)
+    let $frbroo_F28 := 
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F28id}">
+            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F28_Expression_Creation"/>
+            <rdfs:label xml:lang="de">Aktivität, die die repräsentative F22 Self Contained Expression zu {$data/tei:titleStmt/tei:title/text()} [{$id}] hervorgebracht hat</rdfs:label>
+            <frbroo:R19_created_a_realization_of rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}"/>
+            {
+                for $creator in $data/tei:titleStmt/tei:author
+                return
+                    <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{substring-after($creator/@ref,'#')}"/>
+            }
+            {(: <frbroo:R17_created rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020000_F2"/>:) (: die hab ich rausgenommen, stattdessen F22:) ()}
+            {
+                (: Möglicherweise könnte man auf die F2 verzichten, wenn man hier die F22 reinnimmt frbroo:R17_created :)
+                <frbroo:R17_created rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F22"/>
             }
         </rdf:Description>
         
-        let $frbr_F22 := 
-                        (: Maybe do F22 Self Contained Expression here :)
-                        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F22">
-                            <!-- Maybe do F22 Self Contained Expression -->
-                            <rdfs:label xml:lang="de">F22 Self Contained Expression zu Werk {$id}</rdfs:label>
-                            <!-- <frbr:R4 rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F3"/> -->
-                        </rdf:Description>
-        
-        let $frbr_F3 := 
-        
+        (: Manifestation Product Type :)
+    let $frbroo_F3 := 
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F3">
-            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F3"/>
-            <rdfs:label xml:lang="de">F3 Manifestation Product Type zu Werk {$id}</rdfs:label>
-            <!-- <frbr:R4i rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F22"/> -->
-        </rdf:Description> 
+            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F3_Manifestation_Product_Type"/>
+            <rdfs:label>Manifestation Product Type zu {$data/tei:titleStmt/tei:title/text()} [{$id}]</rdfs:label>
+            {() (: <!-- könnte einen type haben --> :)}
+            <frbroo:R4i_comprises_carriers_of rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F22"/>
+            <frbroo:CLR6_should_carry rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F24"/>
+            {
+                if ( $data/tei:notesStmt/tei:note and contains($data/tei:notesStmt/tei:note/text(),'http')) then
+                    <rdfs:seeAlso rdf:resource="{$data/tei:notesStmt/tei:note/text()}"/>
+                    else ()
+            }
+        </rdf:Description>
     
+    (: Publication event :)
+    let $frbroo_F30 := 
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F30id}">
+            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F30_Publication_Event"/>
+            <rdfs:label xml:lang="de">Publikation von {normalize-space($data/tei:titleStmt/tei:title/text())} [{$id}] in: {$data/tei:publicationStmt/tei:ab[@type="Bibliografie"]/text()}</rdfs:label>
+            {() (: <!-- carried out by Verlag http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by --> :)}
+            {(:Zeit als timespan:)
+            let $date_unstructured := $data/tei:publicationStmt/tei:ab[@type="Erscheinungsdatum"]/text()
+            let $from-to := if ( matches($date_unstructured,'^\d+\.\s\d+\.\s\d{4}\s–\s\d+\.\s\d+\.\s\d{4}$') ) then
+                let $from := 
+                    let $date-part:= tokenize($date_unstructured,' – ')[1]
+                    let $yyyy := tokenize($date-part,' ')[3]
+                    let $mm := format-number(number(substring-before(tokenize($date-part,' ')[2],'.')),'00')
+                    let $dd := format-number(number(substring-before(tokenize($date-part,' ')[1],'.')),'00')
+                    return $yyyy || "-" || string($mm) || "-" || $dd
+                    
+                let $to := 
+                    let $date-part:= tokenize($date_unstructured,' – ')[2]
+                    let $yyyy := tokenize($date-part,' ')[3]
+                    let $mm := format-number(number(substring-before(tokenize($date-part,' ')[2],'.')),'00')
+                    let $dd := format-number(number(substring-before(tokenize($date-part,' ')[1],'.')),'00')
+                    return $yyyy || "-" || string($mm) || "-" || $dd
+                    
+                return
+                    ($from, $to)
+                else ""
+            let $date_iso := if (matches($date_unstructured,"\d+\.\s\d+\.\s\d{4}")) then 
+                let $yyyy := tokenize($date_unstructured,' ')[3]
+                let $mm := format-number(number(substring-before(tokenize($date_unstructured,' ')[2],'.')),'00')
+                let $dd := format-number(number(substring-before(tokenize($date_unstructured,' ')[1],'.')),'00')
+                return $yyyy || "-" || string($mm) || "-" || string($dd)
+                else $date_unstructured
+            return
+                <crm:P4_has_time-span>
+                    <crm:E52_Time-Span>
+                        {
+                            if ( matches($date_unstructured,"^\d+\.\s\d+\.\s\d{4}$") ) then
+                                (
+                        <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{$date_iso}</crm:P82a_begin_of_the_begin> ,
+                        <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{$date_iso}</crm:P82b_end_of_the_end>
+                                )
+                        else if ( matches($date_unstructured,"^\d{4}$")  ) then 
+                            <crm:P86_falls_within>
+                                <crm:E52_Time-Span>
+                                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{$date_unstructured}-01-01</crm:P82a_begin_of_the_begin> 
+                                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{$date_unstructured}-12-31</crm:P82b_end_of_the_end>
+                                </crm:E52_Time-Span>
+                            </crm:P86_falls_within>
+                        
+                        else if ( matches($date_unstructured,'^\d+\.\s\d+\.\s\d{4}\s–\s\d+\.\s\d+\.\s\d{4}$') )  then
+                            (
+                            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{$from-to[1]}</crm:P82a_begin_of_the_begin> ,
+                            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{$from-to[2]}</crm:P82b_end_of_the_end>
+                            )    
+                            
+                        else ()
+                        }
+                    </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+            }
+            
+            {() (: <!-- Ort  <crm:P7_took_place_at />--> :)}
+            <frbroo:R24_created rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F24"/>
+        </rdf:Description>
+   
+    (: Publication Expression :)
+    let $frbroo_F24 := 
+        <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F24">
+            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F24_Publication_Expression"/>
+            <rdfs:label xml:lang="de">Publication Expression zu {normalize-space($data/tei:titleStmt/tei:title/text())}</rdfs:label>
+            <frbroo:R24i_was_created_through rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F30id}"/>
+            <frbroo:CLR6i_should_be_carried_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F3"/>
+        </rdf:Description>
+    
+        
     return
         (
-        $frbr_work ,
-        $frbr_F22,
-        $frbr_F3,
+        $frbroo_F1 (: F1 Werk; das ist das, auf das in den Annotationen verwiesen wird :) , 
+        (: $frbroo_F2 , :) (: F2 Expression; hier ist unklar, ob man nicht eine F22 Self Contained Expression ansetzen muss :)
+        $frbroo_F22 , (: Repräsentative Expression zum Werk :)
+        $frbroo_F27, (: Konzeptionierungsevent zum Werk; http://iflastandards.info/ns/fr/frbr/frbroo/F27_Work_Conception :)
+        $frbroo_F28 , (: Realisierungsaktivität macht aus einem Werk eine Expression :)
+        $frbroo_F3 (: Manifestation Product Type :) ,
+        $frbroo_F30 (: Publication Event :),
+        $frbroo_F24 (: Publication Expression:) 
+        (: ,
         $data
+        :)
         )
 };
