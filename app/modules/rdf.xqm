@@ -162,7 +162,7 @@ declare function lod:resource($id) {
             $labels ,
             $creation ,
             $corresp-events ,
-            $date,
+            (: $date, :)
             <crm:P2_has_type rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/type/{substring($id,1,1)}"/> ,
             <crm:P2_has_type rdf:resource="{$doctype}"/>, 
             <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$id}"/>,
@@ -274,12 +274,23 @@ declare function local:getDocumentTypeURI($id) {
 declare function local:generateCreationActivities($id) {
     
     <crm:P94i_was_created_by xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
-      <rdf:Description>
+      <crm:E65_Creation>
         { 
             for $creator in local:getAuthorsOfDoc($id) return 
                 <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$creator}"/>
         }
-      </rdf:Description>
+        {
+            let $date := api:DocSortDate($id)
+            return
+                <crm:P4_has_time-span>
+                        <crm:E52_Time-Span>
+                            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{$date}</crm:P82a_begin_of_the_begin>
+                            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{$date}</crm:P82b_end_of_the_end>
+                        </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                
+        }
+      </crm:E65_Creation>
     </crm:P94i_was_created_by>
 };
 

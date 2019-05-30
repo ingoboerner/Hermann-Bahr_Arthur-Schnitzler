@@ -17,15 +17,15 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
  
   (: lod:place("A000250") :)
   
-  (: lod:place("A000313") :) 
+  (: lod:place("A000313") :)
 
  (: lod:resource("D041003") :)
  
-  (: lod:resource("L041527") :)
+(:  lod:resource("L041527") :)
  
   (: lod:resource("L041000") :)
  
- (: lod:institution("A080353") :)
+(:   lod:institution("A080353") :)
  
  (: lod:institution("A081046") :)
  
@@ -45,11 +45,6 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 
 lod:work("A020021")
 
-
- 
- 
- 
- 
 
 }
 </rdf:RDF>
