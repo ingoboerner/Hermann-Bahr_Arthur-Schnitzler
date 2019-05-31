@@ -74,7 +74,7 @@ declare function lod:place($id) {
     let $coords := $additional_data//tei:geo/string()
     let $lon := tokenize($coords,' ')[2]
     let $lat := tokenize($coords, ' ')[1]
-    let $wienwiki := normalize-space($additional_data//tei:idno[@subtype="WIENWIKI"]/string())
+    let $wienwiki := for $string in $additional_data//tei:idno[@subtype="WIENWIKI"]/string() return normalize-space($string)
      return
          
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
