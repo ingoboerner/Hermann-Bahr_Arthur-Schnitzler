@@ -228,7 +228,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030073"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 2621 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 2621 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002001"/>
@@ -720,7 +722,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T041007"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>FS PE268885</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>FS PE268885</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
     </rdf:Description>
@@ -738,7 +742,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T041006"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>FS PE268886</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>FS PE268886</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
     </rdf:Description>
@@ -970,7 +976,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030008"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 2628 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 2628 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000214"/>
@@ -1094,7 +1102,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030039"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 2103/30–32 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 2103/30–32 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002094"/>
@@ -1794,7 +1804,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030072"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 2622 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 2622 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003320"/>
@@ -2045,7 +2057,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030071"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 2624 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 2624 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020590"/>
@@ -2114,7 +2128,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030070"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 2625 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 2625 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020586"/>
@@ -2192,7 +2208,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030074"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 3518 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 3518 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020448"/>
@@ -2289,7 +2307,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030075"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 3680 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 3680 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A021210"/>
@@ -2401,7 +2421,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030063"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 3675 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 3675 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080030"/>
@@ -2425,7 +2447,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030088"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 3676 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 3676 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020133"/>
@@ -2453,7 +2477,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030089"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 2112/6 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 2112/6 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020843"/>
@@ -2499,7 +2525,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030062"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 3675 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 3675 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A021097"/>
@@ -2530,7 +2558,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030076"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 1759 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 1759 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020720"/>
@@ -2687,7 +2717,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030078"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 871 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 871 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002029"/>
@@ -2768,7 +2800,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030087"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 876 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 876 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A021334"/>
@@ -2799,7 +2833,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030086"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 871 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 871 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000214"/>
@@ -3032,7 +3068,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030069"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 2623 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 2623 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020351"/>
@@ -3198,7 +3236,9 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030005"/>
         <rdfs:seeAlso rdf:resource="https://www.theatermuseum.at/onlinesammlung/detail/967778"/>
         <crm:P1_is_identified_by>
-            <crm:E42_Identifier>HS VM 830 Ba</crm:E42_Identifier>
+            <rdf:Description>
+                <crm:E42_Identifier>HS VM 830 Ba</crm:E42_Identifier>
+            </rdf:Description>
         </crm:P1_is_identified_by>
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002001"/>
