@@ -1,7 +1,7 @@
 xquery version "3.1";
 
 import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.xqm";
-
+(:  
 <rdf:RDF 
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -12,7 +12,7 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
     xmlns:dct="http://purl.org/dc/terms/"
     xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
 >
-                        {
+                        { :)
  (: lod:person("A002001")  :) 
  
   (: lod:place("A000250") :)
@@ -43,9 +43,14 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 
 (: lod:work("A020008") :) 
 
-lod:work("A020021")
+(:  lod:work("A020021") :)
 
-
+(:  
+()
 }
 </rdf:RDF>
+:)
 
+
+
+lod:dumpRDF()

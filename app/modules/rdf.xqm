@@ -631,3 +631,25 @@ declare function lod:work($id) {
         :)
         )
 };
+
+(:~ :)
+declare function lod:dumpRDF() {
+    <rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:gndo="http://d-nb.info/standards/elementset/gnd#" 
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:schema="http://schema.org/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
+>
+
+{
+    ()
+    (: iterate over everything and dump :)
+}
+
+</rdf:RDF>
+    
+};
