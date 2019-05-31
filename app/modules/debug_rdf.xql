@@ -11,19 +11,22 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
     xmlns:schema="http://schema.org/"
     xmlns:dct="http://purl.org/dc/terms/"
     xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
+    xmlns:hbasp="http://bahrschnitzler.acdh.oeaw.ac.at/property/"
 >
-                        { :)
+                        { 
+                            
+:)
  (: lod:person("A002001")  :) 
  
   (: lod:place("A000250") :)
   
   (: lod:place("A000313") :)
 
- (: lod:resource("D041003") :)
+(: lod:resource("D041003") :)
  
 (:  lod:resource("L041527") :)
  
-  (: lod:resource("L041000") :)
+(:  lod:resource("L041000") :)
  
 (:   lod:institution("A080353") :)
  
@@ -45,12 +48,17 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 
 (:  lod:work("A020021") :)
 
-(:  
-()
+(:   
+
 }
 </rdf:RDF>
+
 :)
 
 
+(:  lod:dumpRDF() :)
 
-lod:dumpRDF()
+(:  lod:dumpTypeRDF("persons") :)
+
+(: Achtung Metadata muss id "Personen", "Orte", "Organisationen", "Werke" haben, sonst geht's nicht :)
+lod:dumpTypeRDF("diaries")

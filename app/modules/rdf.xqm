@@ -24,6 +24,7 @@ declare namespace owl="http://www.w3.org/2002/07/owl#" ;
 declare namespace schema="http://schema.org/" ;
 declare namespace geo="http://www.opengis.net/ont/geosparql#" ;
 declare namespace frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+declare namespace hbasp="http://bahrschnitzler.acdh.oeaw.ac.at/property/";
 
 
 declare variable $lod:additonal_data-root := $config:app-root || "/additional_data";
@@ -139,13 +140,15 @@ declare function lod:resource($id) {
         
     let $date := <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{api:DocSortDate($id)}</dct:date>
     
+    let $hbassortDate := <hbasp:SortDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{api:DocSortDate($id)}</hbasp:SortDate>
+    
     let $creation := local:generateCreationActivities($id)
     
     let $corresp-events := if (substring($id,1,1) eq "L") then lod:getCorrespondenceEvents($id) else ()
     
     (: try to get identifier of theatermuseum :)
-    let $theatermuseum := if ($data//tei:listWit[1]/tei:msIdentifier/tei:repository[contains(.,"Theatermuseum")]) then 
-        local:getTheatermuseumID($id) else ()
+    let $theatermuseum := try {if ($data//tei:listWit[1]/tei:msIdentifier/tei:repository[contains(.,"Theatermuseum")]) then 
+        local:getTheatermuseumID($id) else ()} catch * {()}
     
     (: mentions :)
     let $mentions := lod:getMentions($id)
@@ -163,6 +166,7 @@ declare function lod:resource($id) {
             $creation ,
             $corresp-events ,
             (: $date, :)
+            $hbassortDate ,
             <crm:P2_has_type rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/type/{substring($id,1,1)}"/> ,
             <crm:P2_has_type rdf:resource="{$doctype}"/>, 
             <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$id}"/>,
@@ -244,8 +248,16 @@ declare function lod:getMentions($id as xs:string) {
    
         (: loop over all Elements with a @key-Attribute – and hope, that these are the mentions.. :)
         for $key in distinct-values(collection($config:data-root)/id($id)//tei:body//element()[@key]/@key/string())
+        
+        (: let $keys := tokenize(collection($config:data-root)/id($id)//tei:body//element()[@key]/@key/string(),' ')
+        
+        for $key in distinct-values($keys) :)
         return
+            if (not(contains($key,' '))) then
             <schema:mentions xmlns:schema="http://schema.org/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$key}"/>
+            else
+                for  $distinct-key in tokenize($key,' ') return
+                    <schema:mentions xmlns:schema="http://schema.org/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$distinct-key}"/>
    
 
 else
@@ -279,7 +291,7 @@ declare function local:generateCreationActivities($id) {
             for $creator in local:getAuthorsOfDoc($id) return 
                 <crm:P14_carried_out_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$creator}"/>
         }
-        {
+        { (:
             let $date := api:DocSortDate($id)
             return
                 <crm:P4_has_time-span>
@@ -288,6 +300,9 @@ declare function local:generateCreationActivities($id) {
                             <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{$date}</crm:P82b_end_of_the_end>
                         </crm:E52_Time-Span>
                 </crm:P4_has_time-span>
+            :)
+            
+            ()
                 
         }
       </crm:E65_Creation>
@@ -634,22 +649,124 @@ declare function lod:work($id) {
 
 (:~ :)
 declare function lod:dumpRDF() {
+
+  let $diaries := for $D-id in collection($config:data-root || "/diaries")//tei:TEI/@xml:id/string()
+    return lod:resource($D-id)
+
+
+let $letters := for $L-id in collection($config:data-root || "/letters")//tei:TEI/@xml:id/string()
+    return lod:resource($L-id)
+
+let $texts := for $T-id in collection($config:data-root || "/letters")//tei:TEI/@xml:id/string()
+    return lod:resource($T-id)
+
+let $persons := for $P-id in collection($config:data-root || "/meta/Personen.xml")//tei:person/@xml:id/string()
+    return lod:person($P-id)
+
+let $places := for $Pl-id in collection($config:data-root || "/meta/Orte.xml")//tei:place/@xml:id/string()
+    return lod:place($Pl-id)
+
+let $institutions := for $I-id in collection($config:data-root || "/meta/Organisationen.xml")//tei:org/@xml:id/string()
+    return lod:institution($I-id)
+
+let $works := for $W-id in collection($config:data-root || "/meta/Werke.xml")//tei:biblFull/@xml:id/string()
+    return lod:work($W-id)
+    
+let $RDF :=    
+    
     <rdf:RDF 
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:gndo="http://d-nb.info/standards/elementset/gnd#" 
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
     xmlns:schema="http://schema.org/"
     xmlns:dct="http://purl.org/dc/terms/"
     xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
+    xmlns:hbasp="http://bahrschnitzler.acdh.oeaw.ac.at/property/"
 >
 
 {
-    ()
-    (: iterate over everything and dump :)
+    ( 
+       $diaries ,
+        $letters,
+        $texts ,
+        $persons ,
+        $places ,
+        $institutions ,
+        $works
+    )
 }
 
 </rdf:RDF>
+
+let $filename := "hbas_letters.rdf"
+let $location := $config:app-root || "/export"
+let $saved := xmldb:store($location, $filename, $RDF)
+ 
     
+    return 
+        
+        "Exported RDF to " || $filename || "at " || $location 
+        
 };
+
+(:~ :)
+declare function lod:dumpTypeRDF($type) {
+let $data := switch ($type)
+    
+    case "diaries" return 
+        for $D-id in collection($config:data-root || "/diaries")//tei:TEI/@xml:id/string()
+            return lod:resource($D-id)
+
+
+case "letters" return for $L-id in collection($config:data-root || "/letters")//tei:TEI/@xml:id/string()
+    return lod:resource($L-id)
+
+case "texts" return for $T-id in collection($config:data-root || "/texts")//tei:TEI/@xml:id/string()
+    return lod:resource($T-id)
+
+case "persons" return for $P-id in collection($config:data-root || "/meta")/id("Personen")//tei:person/@xml:id/string()
+    return lod:person($P-id)
+
+case "places" return  for $Pl-id in collection($config:data-root || "/meta")/id("Orte")//tei:place/@xml:id/string()
+    return lod:place($Pl-id)
+
+case "institutions" return  for $I-id in collection($config:data-root || "/meta")/id("Organisationen")//tei:org/@xml:id/string()
+    return lod:institution($I-id)
+
+case "works" return  for $W-id in collection($config:data-root || "/meta")//id("Werke")//tei:biblFull/@xml:id/string()
+    return lod:work($W-id)
+
+
+default return ()
+    
+let $RDF :=    
+    
+    <rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:schema="http://schema.org/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
+    xmlns:hbasp="http://bahrschnitzler.acdh.oeaw.ac.at/property/"
+>
+
+{
+    $data
+}
+
+</rdf:RDF>
+
+let $filename := "hbas_" || $type || ".rdf"
+let $location := $config:app-root || "/export"
+let $saved := xmldb:store($location, $filename, $RDF)
+ 
+    
+    return 
+        
+        "Exported RDF to " || $filename || "at " || $location 
+        
+};
+
