@@ -404,8 +404,15 @@ declare function local:getTheatermuseumID($id as xs:string) {
     let $perma-uri := substring($permalink, 1 , string-length($permalink)-1) 
     
     let $theatermuseum-identifier := <crm:P1_is_identified_by>
-                                        <crm:E42_Identifier>{$signatur}</crm:E42_Identifier>
+                                            <rdf:Description>
+                                                <crm:E42_Identifier>{$signatur}</crm:E42_Identifier>
+                                            </rdf:Description>
                                     </crm:P1_is_identified_by>
+    
+    (:  hier gibt's Probleme: <crm:P1_is_identified_by>
+                                        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
+                                        <rdfs:label>{$signatur}</rdfs:label>
+                                    </crm:P1_is_identified_by> :) 
         
     
     return

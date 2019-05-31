@@ -62,10 +62,10 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 
 (: Achtung Metadata muss id "Personen", "Orte", "Organisationen", "Werke" haben, sonst geht's nicht :)
 (:  lod:dumpTypeRDF("diaries") :)
-(:  lod:dumpTypeRDF("letters") :)
-(:  lod:dumpTypeRDF("texts")  :)
+(: lod:dumpTypeRDF("letters") :)
+ (: lod:dumpTypeRDF("texts")  :)
 (:  lod:dumpTypeRDF("persons") :)
-(:  lod:dumpTypeRDF("places") :)
+(:  lod:dumpTypeRDF("places")  :)
 (:  lod:dumpTypeRDF("institutions") :)
-lod:dumpTypeRDF("works")
+lod:dumpTypeRDF("works") 
 
