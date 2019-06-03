@@ -43,7 +43,7 @@ declare function lod:person($id as xs:string) {
         
         return
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
-            <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
             <rdfs:label>{$label}</rdfs:label>
             
             <crm:P1_is_identified_by>
@@ -78,7 +78,7 @@ declare function lod:place($id) {
      return
          
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
-            <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
             
             <crm:P1_is_identified_by>
                 <crm:E41_Appellation>
@@ -161,7 +161,7 @@ declare function lod:resource($id) {
             {
                 
             (
-            <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>,
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>,
             $labels ,
             $creation ,
             $corresp-events ,
@@ -410,7 +410,7 @@ declare function local:getTheatermuseumID($id as xs:string) {
                                     </crm:P1_is_identified_by>
     
     (:  hier gibt's Probleme: <crm:P1_is_identified_by>
-                                        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
+                                        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
                                         <rdfs:label>{$signatur}</rdfs:label>
                                     </crm:P1_is_identified_by> :) 
         
@@ -446,7 +446,7 @@ declare function lod:institution($id) {
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
             {
             (
-            <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>,
+            <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>,
             $labels ,
             <crm:P1_is_identified_by>
                 <crm:E41_Appellation>
@@ -479,7 +479,7 @@ declare function lod:work($id) {
     (: Work :)
     let $frbroo_F1 :=
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}">
-              <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work"/>
+              <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work"/>
               {
                   $labels
               }
@@ -493,7 +493,7 @@ declare function lod:work($id) {
     (: will remove this for now and replace with f22 :)
     (: let $frbroo_F2 :=
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F2">
-              <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2_Expression"/>
+              <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2_Expression"/>
               <rdfs:label xml:lang="de">F2 Expression zu F1 Werk {$data/tei:titleStmt/tei:title/text()} [{$id}]</rdfs:label>
               <frbroo:R3i_realises rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}"/>
               <frbroo:R17i_was_created_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F28id}"/>
@@ -504,7 +504,7 @@ declare function lod:work($id) {
     (: Der Unterschied zwischen Expression und Self Contained Expression ist mir nicht ganz klar :)
     let $frbroo_F22 := 
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F22">
-            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self_Contained_Expression"/>
+            <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self_Contained_Expression"/>
             <rdfs:label>Repräsentative Expression zu {$data/tei:titleStmt/tei:title/text()}</rdfs:label>
             <frbroo:R40i_is_representative_expression_for rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}"/>
             {
@@ -519,7 +519,7 @@ declare function lod:work($id) {
     (: Aktivität, durch die das Werk entwickelt wird :)   
     let $frbroo_F27 := 
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F27id}">
-              <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F27_Work_Conception"/>
+              <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F27_Work_Conception"/>
               <rdfs:label xml:lang="de">Konzeptionierungsphase zu {$data/tei:titleStmt/tei:title/text()} [{$id}]</rdfs:label>
                 {
                     for $creator in $data/tei:titleStmt/tei:author
@@ -533,7 +533,7 @@ declare function lod:work($id) {
     (: hab ich vorher für F2 verwendet, jetzt für die Repräsentative Expression F22 :)
     let $frbroo_F28 := 
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F28id}">
-            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F28_Expression_Creation"/>
+            <rdfs:typ rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F28_Expression_Creation"/>
             <rdfs:label xml:lang="de">Aktivität, die die repräsentative F22 Self Contained Expression zu {$data/tei:titleStmt/tei:title/text()} [{$id}] hervorgebracht hat</rdfs:label>
             <frbroo:R19_created_a_realization_of rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}"/>
             {
@@ -551,7 +551,7 @@ declare function lod:work($id) {
         (: Manifestation Product Type :)
     let $frbroo_F3 := 
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F3">
-            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F3_Manifestation_Product_Type"/>
+            <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F3_Manifestation_Product_Type"/>
             <rdfs:label>Manifestation Product Type zu {$data/tei:titleStmt/tei:title/text()} [{$id}]</rdfs:label>
             {() (: <!-- könnte einen type haben --> :)}
             <frbroo:R4i_comprises_carriers_of rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F22"/>
@@ -566,7 +566,7 @@ declare function lod:work($id) {
     (: Publication event :)
     let $frbroo_F30 := 
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F30id}">
-            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F30_Publication_Event"/>
+            <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F30_Publication_Event"/>
             <rdfs:label xml:lang="de">Publikation von {normalize-space($data/tei:titleStmt/tei:title/text())} [{$id}] in: {$data/tei:publicationStmt/tei:ab[@type="Bibliografie"]/text()}</rdfs:label>
             {() (: <!-- carried out by Verlag http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by --> :)}
             {(:Zeit als timespan:)
@@ -631,7 +631,7 @@ declare function lod:work($id) {
     (: Publication Expression :)
     let $frbroo_F24 := 
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F24">
-            <rdfs:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F24_Publication_Expression"/>
+            <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F24_Publication_Expression"/>
             <rdfs:label xml:lang="de">Publication Expression zu {normalize-space($data/tei:titleStmt/tei:title/text())}</rdfs:label>
             <frbroo:R24i_was_created_through rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F30id}"/>
             <frbroo:CLR6i_should_be_carried_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F3"/>
