@@ -67,5 +67,9 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 (:  lod:dumpTypeRDF("persons") :)
 (:  lod:dumpTypeRDF("places")  :)
 (:  lod:dumpTypeRDF("institutions") :)
-lod:dumpTypeRDF("works") 
-
+(:  lod:dumpTypeRDF("works") :)
+let $dumps := ("diaries", "letters", "texts", "persons", "places", "institutions", "works")
+return
+    for $file in $dumps
+    return
+        lod:dumpTypeRDF($file)

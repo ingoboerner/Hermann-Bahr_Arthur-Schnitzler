@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:schema="http://schema.org/" xmlns:hbasp="http://bahrschnitzler.acdh.oeaw.ac.at/property/" xmlns:dct="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/">
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080000">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Prager Presse</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -12,7 +12,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080000"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080001">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Reclams Universum</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -23,7 +23,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080001"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080002">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Bibliophilengesellschaft</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -34,7 +34,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080002"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080003">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Haas &amp; Grabherr</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -45,7 +45,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080003"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080004">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Engelhorn</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -56,7 +56,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080004"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080005">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Grazer Tagblatt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -67,7 +67,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080005"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080006">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Dürr &amp; Weber</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -78,7 +78,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080006"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080007">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Marianische Männerkongregation</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -89,7 +89,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080007"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080008">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Deutschösterreichischer Bühnenverein</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -100,7 +100,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080008"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080009">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Cosmopolis</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -111,7 +111,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080009"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080010">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Berliner Neueste Nachrichten</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -122,7 +122,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080010"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080011">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die Zeit</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -133,7 +133,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080011"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080012">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>B. G. Teubner</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -144,7 +144,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080012"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080013">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Commerz- und Privat-Bank AG</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -155,7 +155,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080013"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080014">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Neue Rundschau [Freie Bühne (1890–1892), Neue Deutsche Rundschau (1893–1903)]</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -166,7 +166,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080014"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080015">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Gemütliche Harmonie</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -177,7 +177,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080015"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080016">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>J.G. Cotta’sche Buchhandlung Nachfolger</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -188,7 +188,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080016"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080017">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Manz’sche Verlags- und Universitätsbuchhandlung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -199,7 +199,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080017"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080018">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Arbeiterbühne</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -210,7 +210,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080018"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080019">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Südbahn-Gesellschaft</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -221,7 +221,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080019"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080020">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Kapuziner</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -232,7 +232,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080020"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080021">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Leopold Weiss</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -243,7 +243,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080021"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080022">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Journal des débats</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -254,7 +254,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080022"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080023">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Theatiner-Verlag</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -265,7 +265,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080023"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080024">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Literarische Gesellschaft in Halle</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -275,7 +275,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080024"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080025">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Das Neue Reich</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -286,7 +286,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080025"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080026">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Kehlendorfer</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -297,7 +297,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080026"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080027">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Landesbildungsamt Salzburg für die Volkswehr</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -308,7 +308,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080027"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080028">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wassermann</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -319,7 +319,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080028"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080029">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Passamt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -330,7 +330,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080029"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080030">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Meininger</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -341,7 +341,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080030"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080031">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Verein gegen Trunksucht</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -352,7 +352,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080031"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080032">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Papierzentrale</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -362,7 +362,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080032"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080033">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Herrmann-Bank</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -373,7 +373,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080033"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080034">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Sankt-Olav-Orden</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -384,7 +384,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080034"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080035">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Carl Reissner</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -395,7 +395,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080035"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080036">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Allgemeine Bodencreditanstalt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -406,7 +406,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080036"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080037">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Burgmusik</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -417,7 +417,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080037"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080038">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Bazar de la Charité</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -428,7 +428,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080038"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080039">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Josef Migotti</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -439,7 +439,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080039"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080040">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Emanuel Reicher’s Deutsche Gastspielgesellschaft</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -450,7 +450,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080040"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080041">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Niederösterreichische Statthalterei</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -460,7 +460,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080041"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080042">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Süddeutsches Antiquariat</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -470,7 +470,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080042"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080043">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Schiller-Preis</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -481,7 +481,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080043"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080044">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Prager Tagblatt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -492,7 +492,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080044"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080045">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Katholikenbund</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -503,7 +503,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080045"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080046">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Paramount</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -514,7 +514,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080046"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080047">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Landesregierung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -525,7 +525,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080047"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080048">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Akademisch-dramatischer Verein</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -536,7 +536,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080048"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080049">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>The journal of English and Germanic Philology</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -546,7 +546,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080049"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080050">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Burgtheaterring</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -557,7 +557,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080050"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080051">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die Presse</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -568,7 +568,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080051"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080052">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Ibsenbund</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -578,7 +578,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080052"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080053">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Deutsche Wochenschrift [Wien]</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -589,7 +589,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080053"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080054">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Union dramatischer Autoren und Komponisten in Wien</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -599,7 +599,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080054"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080055">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Steyrermühl</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -610,7 +610,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080055"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080056">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Akademie der Tonkunst</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -620,7 +620,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080056"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080057">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Czernowitzer Allgemeine Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -631,7 +631,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080057"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080058">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Breslauer Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -642,7 +642,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080058"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080059">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Münchener Neue Secession</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -653,7 +653,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080059"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080060">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Les Temps</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -664,7 +664,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080060"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080061">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Académie Française</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -674,7 +674,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080061"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080062">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Zisterzienser</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -685,7 +685,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080062"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080063">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Tyrolia</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -696,7 +696,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080063"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080064">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Albia</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -707,7 +707,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080064"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080065">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Carl Konegen</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -718,7 +718,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080065"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080066">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Jesuiten (Gesellschaft Jesu)</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -729,7 +729,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080066"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080067">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Salzburger Nachrichten</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -740,7 +740,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080067"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080068">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Salzburger Festspiele</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -751,7 +751,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080068"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080069">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Verband katholischer Akademiker Deutschlands</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -762,7 +762,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080069"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080070">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Tierschutz-Verein</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -773,7 +773,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080070"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080071">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Reichswehr</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -784,7 +784,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080071"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080072">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Pester Lloyd</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -795,7 +795,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080072"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080073">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die Fackel</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -806,7 +806,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080073"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080074">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Rütten &amp; Loening</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -817,7 +817,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080074"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080075">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -828,7 +828,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080075"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080076">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Tagblatt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -839,7 +839,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080076"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080077">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Lokal-Anzeiger</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -850,7 +850,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080077"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080078">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Neue Hamburger Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -861,7 +861,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080078"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080079">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Weltausstellung 1893</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -872,7 +872,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080079"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080080">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Neues Wiener Journal</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -883,7 +883,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080080"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080081">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Lesezirkel Hottingen</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -894,7 +894,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080081"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080082">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Leipziger Abendzeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -905,7 +905,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080082"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080083">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Montagsblatt der St. Petersburger Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -916,7 +916,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080083"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080084">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Das Theater. Halbmonatsschrift</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -927,7 +927,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080084"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080085">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Berliner Tageblatt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -938,7 +938,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080085"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080086">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Vossische Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -949,7 +949,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080086"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080087">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Kattowitzer Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -960,7 +960,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080087"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080088">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Thomas Seltzer</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -971,7 +971,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080088"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080089">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Schutzverband deutscher Schriftsteller</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -982,7 +982,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080089"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080090">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Münchner Neueste Nachrichten</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -993,7 +993,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080090"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080091">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Franz Borgmeyer</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1004,7 +1004,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080091"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080092">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Josef Kösel &amp; Friedrich Pustet</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1014,7 +1014,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080092"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080093">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Österreichische Volks-Presse</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1025,7 +1025,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080093"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080094">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Sonntagsblatt des Bund</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1036,7 +1036,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080094"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080095">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Deutsches Literaturarchiv</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1047,7 +1047,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080095"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080096">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Theatermuseum</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1058,7 +1058,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080096"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080097">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die Schaubühne/Die Weltbühne</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1069,7 +1069,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080097"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080098">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Österreichische Nationalbibliothek</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1080,7 +1080,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080098"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080099">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Neue Freie Presse</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1091,7 +1091,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080099"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080100">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Universitätsbibliothek Salzburg</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1102,7 +1102,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080100"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080101">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Cambridge University Library</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1113,7 +1113,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080101"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080102">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Freies Deutsches Hochstift</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1123,7 +1123,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080102"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080103">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Allgemeine Kunst-Chronik</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1134,7 +1134,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080103"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080104">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die Moderne</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1145,7 +1145,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080104"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080105">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Kunsthistorisches Museum</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1156,7 +1156,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080105"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080106">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Allgemeine Montagszeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1167,7 +1167,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080106"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080107">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Paul Cassirer</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1178,7 +1178,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080107"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080108">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Sallis’scher Verlag</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1189,7 +1189,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080108"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080109">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Verlags-Magazin (J. Schabelitz)</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1200,7 +1200,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080109"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080110">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Adolf Zoberbier</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1211,7 +1211,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080110"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080111">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>J. Singer &amp; Co.</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1222,7 +1222,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080111"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080112">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Österreichische Bühnenvereins-Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1233,7 +1233,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080112"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080113">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>The Dial</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1244,7 +1244,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080113"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080114">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Gesellschaft für modernes Leben</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1254,7 +1254,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080114"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080115">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Sommerfest. Ein moderner Musen-Almanach</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1265,7 +1265,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080115"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080116">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>PMLA</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1276,7 +1276,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080116"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080117">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Romanwelt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1287,7 +1287,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080117"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080118">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Propyläen</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1298,7 +1298,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080118"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080119">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Philharmoniker</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1309,7 +1309,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080119"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080120">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Berliner Theater</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1320,7 +1320,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080120"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080121">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Montags-Journal</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1331,7 +1331,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080121"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080122">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Österreichische Film-Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1342,7 +1342,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080123">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>B. Firnberg</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1353,7 +1353,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080123"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080124">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Carl Spängler &amp; Co.</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1364,7 +1364,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080124"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080125">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die weißen Blätter</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1375,7 +1375,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080125"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080126">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Ignaz Bittmann</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1386,7 +1386,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080126"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080127">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Internationaler Presskongress</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1397,7 +1397,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080127"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080128">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>E. P. Tal</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1408,7 +1408,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080128"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080130">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Kikeriki</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1419,7 +1419,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080130"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080134">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Der Morgen. Wiener Montagsblatt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1430,7 +1430,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080134"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080139">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Moderne Welt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1441,7 +1441,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080139"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080141">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Berliner Börsen-Courier</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1452,7 +1452,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080141"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080142">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Jugend</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1463,7 +1463,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080142"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080148">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Neues Wiener Tagblatt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1474,7 +1474,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080148"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080150">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Moderne Dichtung/Moderne Rundschau</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1485,7 +1485,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080150"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080153">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Österreichische Volks-Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1496,7 +1496,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080153"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080155">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Deutsche Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1507,7 +1507,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080155"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080158">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Le Matin</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1518,7 +1518,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080158"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080165">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>L’Idée libre</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1529,7 +1529,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080165"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080167">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die Gesellschaft</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1540,7 +1540,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080167"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080169">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Frankfurter Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1551,7 +1551,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080169"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080182">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>J. Eisenstein &amp; Co.</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1562,7 +1562,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080182"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080202">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die Hilfe</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1573,7 +1573,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080202"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080204">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Österreichische Rundschau</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1584,7 +1584,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080204"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080222">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Moderne Kunst in Meister-Holzschnitten</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1595,7 +1595,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080222"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080223">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Sonn- und Montagszeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1606,7 +1606,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080223"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080242">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Der Merker</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1617,7 +1617,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080242"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080264">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Süddeutsche Monatshefte</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1628,7 +1628,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080264"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080271">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Fremden-Blatt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1639,7 +1639,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080271"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080295">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Weltblatt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1650,7 +1650,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080295"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080305">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Abendpost</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1661,7 +1661,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080305"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080312">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Revue des Revues</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1672,7 +1672,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080312"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080315">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Magazin für Litteratur</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1683,7 +1683,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080315"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080322">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die Zeit</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1694,7 +1694,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080322"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080325">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Politiken</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1705,7 +1705,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080325"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080353">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Ahn &amp; Simrock</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1716,7 +1716,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080353"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080360">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die Zukunft</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1727,7 +1727,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080360"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080390">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Velhagen &amp; Klasings Monatshefte</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1738,7 +1738,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080390"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080405">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Erdgeist</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1749,7 +1749,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080405"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080408">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Verein der Literaturfreunde</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1760,7 +1760,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080408"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080415">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Verlag</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1771,7 +1771,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080415"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080427">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Reichspost</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1782,7 +1782,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080427"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080434">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>S. Fischer</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1793,7 +1793,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080434"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080444">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Der neue Tag</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1804,7 +1804,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080444"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080449">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Paul Zsolnay</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1815,7 +1815,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080449"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080457">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Donauverlag</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1826,7 +1826,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080457"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080477">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Arbeiter-Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1837,7 +1837,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080477"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080486">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Kölnische Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1848,7 +1848,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080486"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080519">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Simon &amp; Schuster</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1859,7 +1859,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080519"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080528">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Der Kunstwart</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1870,7 +1870,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080528"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080538">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Der Tag</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1881,7 +1881,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080538"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080563">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Tauchnitz</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1892,7 +1892,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080563"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080564">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Langenscheidt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1903,7 +1903,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080564"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080566">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Albert Langen</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1914,7 +1914,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080566"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080598">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Brakls Rubinverlag</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1925,7 +1925,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080598"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080600">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Salzburger Chronik</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1936,7 +1936,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080600"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080601">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Corriere della sera</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1947,7 +1947,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080601"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080604">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Paetel</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1958,7 +1958,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080604"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080611">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>F. Fontane</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1969,7 +1969,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080611"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080664">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Der Scherer</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1980,7 +1980,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080664"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080677">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Heinrich Minden</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -1991,7 +1991,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080677"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080680">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Münchener General-Anzeiger</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2002,7 +2002,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080680"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080682">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Philipp Reclam jun.</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2013,7 +2013,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080682"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080687">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Goethebund</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2024,7 +2024,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080687"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080690">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Allgemeine Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2035,7 +2035,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080690"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080727">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Neue Zürcher Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2046,7 +2046,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080727"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080729">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>La Revue (ancienne Revue des Revues)</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2057,7 +2057,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080729"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080733">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Bauernfeldpreis</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2068,7 +2068,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080733"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080734">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Franz-Grillparzer-Preis</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2079,7 +2079,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080734"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080735">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Nobelpreis</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2089,7 +2089,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080735"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080758">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Ullstein</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2100,7 +2100,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080758"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080761">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Tagespost</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2111,7 +2111,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080761"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080762">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Tagespost</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2122,7 +2122,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080762"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080763">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Salzburger Volksblatt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2133,7 +2133,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080763"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080764">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Salzburger Wacht</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2144,7 +2144,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080764"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080793">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Gideon Carl Sarasin</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2155,7 +2155,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080793"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080794">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Tägliche Rundschau</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2166,7 +2166,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080794"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080799">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Hermann Barsdorf</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2177,7 +2177,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080799"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080822">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Spamersche Buchdruckerei</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2188,7 +2188,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080822"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080862">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Blätter für die Kunst</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2199,7 +2199,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080862"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080886">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>J. C. B. Mohr</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2210,7 +2210,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080886"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080889">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Breitkopf und Härtel</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2221,7 +2221,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080889"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080892">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>An der schönen blauen Donau</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2232,7 +2232,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080892"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080893">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Der Weg</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2243,7 +2243,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080893"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080894">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Phöbus</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2254,7 +2254,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080894"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080930">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Sozialistische Monatshefte</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2265,7 +2265,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080930"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080931">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>B. Z. am Mittag</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2276,7 +2276,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080931"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080939">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Preussische Jahrbücher</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2287,7 +2287,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080939"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080940">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>The London Mercury</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2298,7 +2298,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080940"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080948">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Le Figaro</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2309,7 +2309,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080948"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080963">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die literarische Welt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2320,7 +2320,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080963"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080966">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Georg Stilke</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2331,7 +2331,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080966"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080983">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>The Christian Commonwealth</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2342,7 +2342,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080983"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080999">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Albert Ahn</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2353,7 +2353,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A080999"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081001">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Der Abend</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2364,7 +2364,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081001"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081007">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Simplicissimus</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2375,7 +2375,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081007"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081019">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Literatur-Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2386,7 +2386,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081019"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081026">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Bibliographisches Bureau</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2397,7 +2397,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081026"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081043">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Extrapost</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2408,7 +2408,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081043"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081044">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die vornehme Welt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2419,7 +2419,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081044"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081045">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Illustrirtes Wiener Extrablatt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2430,7 +2430,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081045"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081046">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Allgemeine Zeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2441,7 +2441,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081046"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081048">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Bilder</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2452,7 +2452,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081048"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081050">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Freie Schlesische Presse</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2463,7 +2463,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081050"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081051">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Brünner Tagesbote</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2474,7 +2474,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081051"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081052">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Brünner Sonntagszeitung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2485,7 +2485,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081052"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081056">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Neues Pester Journal</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2496,7 +2496,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081056"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081064">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Sascha Filmgesellschaft</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2507,7 +2507,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081064"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081071">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Evening Post</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2518,7 +2518,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081071"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081081">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Knopf</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2529,7 +2529,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081081"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081097">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Herz</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2540,7 +2540,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081097"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081098">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Bukum (Aktiengesellschaft für Buch-, Kunst- und Musikalienhandlung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2551,7 +2551,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081098"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081099">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Stock</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2562,7 +2562,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081099"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081100">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Heinemann</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2573,7 +2573,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081100"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081111">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>The Germanic Review</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2584,7 +2584,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081111"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081112">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Stewart Kidd</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2595,7 +2595,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081112"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081114">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Mitchell Kennerley</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2606,7 +2606,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081114"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081115">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Constable &amp; Co</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2617,7 +2617,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081115"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081116">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Hugo Heller</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2628,7 +2628,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081116"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081119">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Metro Goldwyn Mayer</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2639,7 +2639,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081119"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081122">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Rundschau</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2650,7 +2650,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081149">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Erich Reiß</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2661,7 +2661,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081149"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081183">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Insel</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2672,7 +2672,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081183"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081188">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Concordia</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2683,7 +2683,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081188"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081189">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Hagenbund</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2694,7 +2694,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081189"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081192">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Ernst Rowohlt</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2705,7 +2705,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081192"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081205">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Pensionsanstalt deutscher Journalisten und Schriftsteller</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2716,7 +2716,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081205"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081206">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Rikola </rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2727,7 +2727,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081206"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081211">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Latinité. Revue des pays d’Occident</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2738,7 +2738,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081211"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081217">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Kaiser Karl-Gesellschaft</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2749,7 +2749,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081217"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081221">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Preußische Akademie (Sektion für Dichtkunst)</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2759,7 +2759,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081221"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081222">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Deutscher Schulverein</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2770,7 +2770,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081222"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081223">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Monistenbund</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2780,7 +2780,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081223"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081224">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Soziologische Gesellschaft</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2791,7 +2791,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081224"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081227">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Akademischer Verein für Kunst und Literatur</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2802,7 +2802,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081227"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081229">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Deutscher Bühnenverein</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2813,7 +2813,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081229"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081230">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Österreichischer Lloyd</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2824,7 +2824,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081230"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081234">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>E. Pierson</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2835,7 +2835,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081234"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081235">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Literarische Gesellschaft</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2846,7 +2846,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081235"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081245">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Budapester Orpheumgesellschaft</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2857,7 +2857,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081245"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081246">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Piusverein zur Förderung der katholischen Presse in Österreich</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2868,7 +2868,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081246"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081247">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Österreichischer Gewerbeverein</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2879,7 +2879,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081247"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081248">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Akademisch-dramatischer Verein</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2890,7 +2890,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081248"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081249">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die 11 Scharfrichter</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2901,7 +2901,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081249"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081250">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Freie Bühne (Verein für modernes Leben)</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2912,7 +2912,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081250"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081251">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Vorwärts</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2923,7 +2923,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081251"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081254">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Marmorek &amp; Beywasser Kohlehandlung</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2934,7 +2934,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081254"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081273">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Deutsche Passstelle</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2945,7 +2945,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081273"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081277">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Cosmos. Handweiser für Naturfreunde</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2956,7 +2956,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081277"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081278">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Vaterland</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2967,7 +2967,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081278"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081280">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>The Times</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2978,7 +2978,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081280"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081281">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Saubermänner</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -2989,7 +2989,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081281"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081283">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Observer. Alexander Weigl’s Unternehmen für Zeitungssausschnitte</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3000,7 +3000,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081283"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081284">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Circolo Italia di Vienna</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3010,7 +3010,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081284"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081297">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Österreichischer Journalistenbund</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3021,7 +3021,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081297"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081299">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wiener Musik- und Theatergesellschaft</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3032,7 +3032,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081299"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081304">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Dorotheum</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3043,7 +3043,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081304"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081305">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Conservatorium der Gesellschaft der Musikfreunde</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3053,7 +3053,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081305"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081307">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die Nation</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3064,7 +3064,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081307"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081308">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Die Gegenwart</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3075,7 +3075,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081308"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081310">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Meinhard-Bernauer’sche Bühnen</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3086,7 +3086,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081310"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081311">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Bayreuther Festspiele</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3097,7 +3097,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081311"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081312">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Volksbildungsverein</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3108,7 +3108,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081312"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081313">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Wanderbühne des österreichischen Volksbildungsamtes</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3118,7 +3118,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081313"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081315">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Giorgio Sternfeld</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>
@@ -3129,7 +3129,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A081315"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081324">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label>Lazarus-Orden</rdfs:label>
         <crm:P1_is_identified_by>
             <crm:E41_Appellation>

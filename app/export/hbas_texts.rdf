@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:schema="http://schema.org/" xmlns:hbasp="http://bahrschnitzler.acdh.oeaw.ac.at/property/" xmlns:dct="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/">
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030080">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: [Aphoristische Bemerkung über Hermann Bahr], [1919?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -15,7 +15,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002002"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030002">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Die Landpartie der Naturalisten, Stoffnotiz, 6. 5. 1891</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -30,7 +30,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000250"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030014">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Zwischenspiel, 13. 10. 1905</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -62,7 +62,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A004129"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030028">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Das weite Land, 15. 10. 1911</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -91,7 +91,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002463"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030029">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Glückwunsch, Mai 1912</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -123,7 +123,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003784"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T041001">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>[Fotografie von Hermann Bahr und Max Burckhard aus Arthur Schnitzlers Besitz], [2./3. 9. 1909?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -136,7 +136,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T041001"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030040">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Alfred Deutsch-German: Wiener Porträts. XLVI. Hermann Bahr, 5. 4. 1903</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -188,7 +188,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000728"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T041000">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Anna Krieger: [Schnellfotografie, Besitz Arthur Schnitzler], [1. 4. 1894?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -201,7 +201,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T041000"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030043">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: [Das Erscheinen der Autoren], 15. 2. 1899</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -215,7 +215,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000250"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030073">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Buchversandliste Grotesken?], [Januar 1907?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -272,7 +272,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003182"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030059">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>von Arthur Schnitzler markierte Stelle in Hermann Bahr: Die Entdeckung der Provinz, 1. 10. 1899</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -289,7 +289,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002011"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030021">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Der Puppenspieler, 13. 12. 1904</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -322,7 +322,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002104"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030027">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Wie schafft man eine Wiener Sommersaison?, 21. 10. 1909</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -343,7 +343,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002007"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030036">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Berliner Tageblatt: Hermann Bahr über Arthur Schnitzler, 14. 12. 1903</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -363,7 +363,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020082"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030022">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [»Der zerbrochene Krug« und »Der grüne Kakadu«], 15. 10. 1905</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -427,7 +427,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003755"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030056">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: [Zitat zum Bauernfeldpreis], [28. 3. 1899]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -452,7 +452,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000250"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030054">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Moderne Kunst in Österreich, Dezember 1891</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -529,7 +529,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020869"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030013">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Lebendige Stunden, 15. 3. 1903</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -570,7 +570,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020918"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T041002">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Aura Hertwig: [Foto von Hermann Bahr aus Arthur Schnitzlers Besitz], [März?] 1906</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -583,7 +583,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T041002"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030042">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Artur Schnitzler. Nachruf, 25. 10. 1931</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -613,7 +613,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020117"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030081">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Max Burckhard, April 1912</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -681,7 +681,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000313"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T041004">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Richard Beer-Hofmann: [Skizze aus Arthur Schnitzlers Besitz], undatiert</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -694,7 +694,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T041004"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030019">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Schauspiel-Vorstellung des Conservatoriums], 1. 5. 1901</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -709,7 +709,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002038"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T041007">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Lili Schnitzler im Fotoalbum des Ehepaars Bahr, [1911?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -729,7 +729,7 @@
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T041006">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Lili und Olga Schnitzler im Fotoalbum des Ehepaars Bahr, [1911?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -749,7 +749,7 @@
         <owl:sameAs rdf:resource="https://www.theatermuseum.at/de/object/a7a09df286"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030037">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Zur Judenfrage, [März] 1932</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -772,7 +772,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002428"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030023">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Freiwild, 29. 1. 1905</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -806,7 +806,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003725"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030035">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Der Grillparzerpreis, 23. 1. 1902</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -836,7 +836,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002149"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030024">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Tagebuch. 19. September, 14. 10. 1905</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -851,7 +851,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002001"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030009">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Das junge Oesterreich. II, 27. 9. 1893</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -937,7 +937,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020878"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T041003">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Moritz Johann Winter: [Fotografie von Anna von Mildenburg, aus Arthur Schnitzlers Besitz], [März 1909?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -950,7 +950,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T041003"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T041005">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Richard Beer-Hofmann: [Skizze aus Arthur Schnitzlers Besitz], [nach 1895]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -963,7 +963,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T041005"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030008">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Wiener Brief, [25.–30.] 12. 1893</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1022,7 +1022,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020990"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030020">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Lebendige Stunden, 7. 5. 1902</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1067,7 +1067,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003702"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030034">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Persönliche Erinnerungen an Arthur Schnitzler, 6. 11. 1931</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1089,7 +1089,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020042"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030039">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Notizen zu Der Weg ins Freie], 7.–[12.] 6. 1908</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1119,7 +1119,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000475"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030011">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Liebelei], 12. 10. 1895</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1153,7 +1153,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002568"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030031">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Selbstbildnis, Juli 1923</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1183,7 +1183,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000234"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030004">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Olga Schnitzler: Spiegelbild der Freundschaft, 4. Kapitel, 1962</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1330,7 +1330,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000663"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030032">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Arthur Schnitzler zu seinem 60. Geburtstag, Mai 1922</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1351,7 +1351,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020049"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030038">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: A Letter From Germany, Dezember 1922</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1400,7 +1400,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002060"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030006">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Aus dem Tagebuch von Hermann Bahr, 31. 3. 1929</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1421,7 +1421,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000362"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030012">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Der Schleier der Beatrice, 5. 12. 1900</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1447,7 +1447,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A001097"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030010">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Das Märchen, 2. 12. 1893</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1503,7 +1503,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000214"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030007">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Die Schwestern, mit Strichen von Andrian oder Bahr, 14.–19. 9. 1918</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1519,7 +1519,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002002"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030017">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr, Julius Bauer, J. J. David, Robert Hirschfeld, Felix Salten, Ludwig Speidel: Erklärung, 14. 9. 1900</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1551,7 +1551,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000355"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030016">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Theater und Kunst [Liebelei im Burgtheater], 26. 11. 1899</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1576,7 +1576,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003228"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030057">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Bemerkungen zum Thema »Kunst und Kritik«, Juni 1923</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1590,7 +1590,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020117"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030030">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Brief an Arthur Schnitzler, Mai 1922</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1677,7 +1677,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020095"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030026">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Tagebuch. 10. Juni, 6. 11. 1908; mit Anmerkungen von Arthur Schnitzler, [11.–13.] 11. 1908</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1713,7 +1713,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000475"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030018">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Erotisch, 22. 6. 1901</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1774,7 +1774,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003144"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030001">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Aus Kritiken, [7. 4. 1912]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1791,7 +1791,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002024"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030072">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Buchversandliste Inventur], [Anfang September 1912]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1937,7 +1937,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003498"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030066">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Flucht in die Finsternis, 10. 12. 1931</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1956,7 +1956,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080682"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030067">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Gedruckte Widmung in Hermann Bahr: Die tiefe Natur, 1. 12. 1906</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1971,7 +1971,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020058"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030033">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Tagebuch 10. Januar, 26. 1. 1930</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -1999,7 +1999,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000742"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030025">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Dialog vom Marsyas, Oktober 1904</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2025,7 +2025,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000500"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030065">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Plan von Arthur Schnitzler zu Das Wort, September 1904</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2044,7 +2044,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A004251"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030071">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Buchversandliste Buch der Jugend], [Anfang Dezember 1908]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2115,7 +2115,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002134"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030070">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Buchversandliste Stimmen des Bluts], [Mitte Oktober – 8. 11. 1908]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2163,7 +2163,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A080072"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030064">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Stoffentwurf von Arthur Schnitzler zu Das Wort, [nach dem 7. 8.?] 1904</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2179,7 +2179,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002748"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030060">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Gedruckte Widmung in Hermann Bahr: Rezensionen, [12. 4.] 1903</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2195,7 +2195,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000866"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030074">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Buchversandliste Selbstbildnis], [Mitte Mai? 1923]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2239,7 +2239,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000965"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030048">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Burckhard und Fulda, 20. 1. 1893</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2277,7 +2277,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002001"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030049">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Leben und Nachklang, Werk und Widerhall, [25. 5. 1915 – 28. 1. 1920]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2294,7 +2294,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020058"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030075">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Buchversandliste Das österreichische Wunder], [Anfang Juni 1915]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2380,7 +2380,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003193"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030061">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Gedruckte Widmung in Arthur Schnitzler: Der Ruf des Lebens, [27. 2. 1906]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2395,7 +2395,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002002"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030077">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Marginalie in Der Geist im Wort, [25. 2. 1927]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2408,7 +2408,7 @@
         <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/T030077"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030063">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Münchner Hoftheater Pläne [II], Dezember 1905</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2434,7 +2434,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002001"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030088">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Verzeichnis der Glückwünsche zum Tänzchen], [nach dem 7. 1. 1912]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2464,7 +2464,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002771"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030089">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Entwurf für den November-Spielplan?], [Oktober? 1918]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2512,7 +2512,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020838"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030062">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Münchner Hoftheater Pläne [I], Dezember 1905</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2545,7 +2545,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020201"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030076">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Feuilletonentwurf zu Episode], [Anfang Februar 1901?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2576,7 +2576,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020019"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030084">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: [Privataufführung, Besetzungsliste], [18. 10. 1892?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2599,7 +2599,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020093"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030085">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Mepherl [Hermann Bahr]: Indiscret, 10. 12. 1893</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2628,7 +2628,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002032"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030046">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Freiexemplare Im Spiel der Sommerlüfte, [Ende 1929?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2675,7 +2675,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003902"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030052">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: [Leseliste], [frühestens März 1905]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2704,7 +2704,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020041"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030078">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Notizen zu den Wiener Spaziergängen?], [Oktober 1893?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2747,7 +2747,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003812"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030044">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: [Brief an Hermann Bahr], [Anfang Juli] 1923</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2765,7 +2765,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000362"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030050">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: [Zu den Diagrammen], 11. 6. 1915</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2787,7 +2787,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A004008"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030087">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Versandliste Wenn es euch gefällt?], [vor dem 28. 5. 1899?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2820,7 +2820,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002001"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030086">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Über das Burgtheater], [Ende der Theatersaison 1893/1894?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2857,7 +2857,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020693"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030051">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Leutnant Gustl. Äußere Schicksale, [14. 10. 1918?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2876,7 +2876,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002040"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030045">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>[Aufruf für Hermann Bahr], Fremden-Blatt, 22. 4. 1913</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2916,7 +2916,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000978"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030079">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Die feuilletonistischen Haupttypen, [1911?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -2932,7 +2932,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002035"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030041">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Ein Ehrenbeleidigungsproceß, Neues Wiener Tagblatt, 23. 2. 1901</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -3040,7 +3040,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003392"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030055">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Aus Bahrs Tagebuch [16. Februar], 22. 2. 1931</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -3055,7 +3055,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A081211"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030069">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: [Buchversandliste Die Rahl], [Mitte November 1908]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -3142,7 +3142,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002657"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030082">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Tagebuch. 13. Oktober, 28. 10. 1905</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -3158,7 +3158,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A002170"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030083">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Tagebuch. 1. Januar [1921], 16. 1. 1921</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -3200,7 +3200,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A004421"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030068">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr beim Ministerpräsidenten, 5. 11. 1903</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -3223,7 +3223,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A000351"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030005">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Hermann Bahr: Schnitzler, [nach dem 3. 6. 1908?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -3268,7 +3268,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A020018"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030047">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Therese, Rezensionsexemplare für Autoren, [April] 1928</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
@@ -3322,7 +3322,7 @@
         <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/A003904"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/T030053">
-        <rdfs:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
         <rdfs:label>Arthur Schnitzler: Künstler–Literat, [7. 8. 1904?]</rdfs:label>
         <crm:P94i_was_created_by>
             <crm:E65_Creation>
