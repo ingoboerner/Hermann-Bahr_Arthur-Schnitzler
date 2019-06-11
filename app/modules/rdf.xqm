@@ -25,6 +25,7 @@ declare namespace schema="http://schema.org/" ;
 declare namespace geo="http://www.opengis.net/ont/geosparql#" ;
 declare namespace frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/" ;
 declare namespace hbasp="http://bahrschnitzler.acdh.oeaw.ac.at/property/";
+declare namespace edm="http://www.europeana.eu/schemas/edm/";
 
 
 declare variable $lod:additonal_data-root := $config:app-root || "/additional_data";
@@ -469,6 +470,8 @@ declare function lod:work($id) {
     let $authors_for_labels := for $author in $data/tei:titleStmt/tei:author  return $author//tei:persName/tei:forename ||  " " || $author/tei:persName/tei:surname 
     let $labels := for $label in $data/tei:titleStmt/tei:title return
         <rdfs:label>{$label/text() || ' [Werk von ' || string-join($authors_for_labels,';') || ']'  }</rdfs:label>
+        
+    let $ANNO := if ( collection($lod:additonal_data-root)/id("anno-works")//id[contains(./text(),$id)] ) then collection($lod:additonal_data-root)/id("anno-works")//id[contains(./text(),$id)]/ancestor::row else ""    
     
     (: zusätzliche ids :)
     let $frbroo_F27id := util:uuid() (: has to be stored somewhere :)
@@ -557,7 +560,12 @@ declare function lod:work($id) {
             <frbroo:R4i_comprises_carriers_of rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F22"/>
             <frbroo:CLR6_should_carry rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F24"/>
             {
-                if ( $data/tei:notesStmt/tei:note and contains($data/tei:notesStmt/tei:note/text(),'http')) then
+                if ($ANNO != "") then 
+                    ( <edm:hasView rdf:resouce="{$ANNO/URL/text()}"/> ,
+                        <rdfs:seeAlso rdf:resource="{$ANNO/URL/text()}"/>
+                    )
+                
+                else if( $data/tei:notesStmt/tei:note and contains($data/tei:notesStmt/tei:note/text(),'http')) then
                     <rdfs:seeAlso rdf:resource="{$data/tei:notesStmt/tei:note/text()}"/>
                     else ()
             }
@@ -629,12 +637,20 @@ declare function lod:work($id) {
         </rdf:Description>
    
     (: Publication Expression :)
+    
     let $frbroo_F24 := 
         <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F24">
             <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F24_Publication_Expression"/>
             <rdfs:label xml:lang="de">Publication Expression zu {normalize-space($data/tei:titleStmt/tei:title/text())}</rdfs:label>
             <frbroo:R24i_was_created_through rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$frbroo_F30id}"/>
             <frbroo:CLR6i_should_be_carried_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F3"/>
+            {(: hook F22 into F24, add ANNO-Link :) 
+              if ($ANNO != "") then <owl:sameAs rdf:resource="{$ANNO/anno_issue/text()}"/> 
+                  else ()
+                
+            }
+            
+            
         </rdf:Description>
     
         
@@ -690,6 +706,7 @@ let $RDF :=
     xmlns:dct="http://purl.org/dc/terms/"
     xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
     xmlns:hbasp="http://bahrschnitzler.acdh.oeaw.ac.at/property/"
+    xmlns:edm="http://www.europeana.eu/schemas/edm/"
 >
 
 {
@@ -758,6 +775,7 @@ let $RDF :=
     xmlns:dct="http://purl.org/dc/terms/"
     xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
     xmlns:hbasp="http://bahrschnitzler.acdh.oeaw.ac.at/property/"
+    xmlns:edm="http://www.europeana.eu/schemas/edm/"
 >
 
 {

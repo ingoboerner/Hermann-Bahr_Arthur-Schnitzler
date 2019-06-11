@@ -12,6 +12,7 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
     xmlns:dct="http://purl.org/dc/terms/"
     xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
     xmlns:hbasp="http://bahrschnitzler.acdh.oeaw.ac.at/property/"
+    xmlns:edm="http://www.europeana.eu/schemas/edm/"
 >
                         { 
                             
@@ -48,9 +49,9 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 
 (:  lod:work("A020366") :)
 
-(: lod:work("A020008") :) 
+(:  : lod:work("A020008") :)
 
-(:    lod:work("A020021") :)
+    lod:work("A020021") 
 
 (:   
 
@@ -74,9 +75,10 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 (:  lod:dumpTypeRDF("works") :)
 
 (: dump everything :)
- 
+(:   
 let $dumps := ("diaries", "letters", "texts", "persons", "places", "institutions", "works")
 return
     for $file in $dumps
     return
         lod:dumpTypeRDF($file)
+:)
