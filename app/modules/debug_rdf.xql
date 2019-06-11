@@ -49,9 +49,9 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 
 (:  lod:work("A020366") :)
 
-(:  : lod:work("A020008") :)
+(:  lod:work("A020008") :)
 
-    lod:work("A020021") 
+ (:   lod:work("A020021")  :)
 
 (:   
 
@@ -72,7 +72,7 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 (:  lod:dumpTypeRDF("persons") :)
 (:  lod:dumpTypeRDF("places")  :)
 (:  lod:dumpTypeRDF("institutions") :)
-(:  lod:dumpTypeRDF("works") :)
+ lod:dumpTypeRDF("works") 
 
 (: dump everything :)
 (:   

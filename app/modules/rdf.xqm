@@ -561,7 +561,7 @@ declare function lod:work($id) {
             <frbroo:CLR6_should_carry rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/entity/{$id}_F24"/>
             {
                 if ($ANNO != "") then 
-                    ( <edm:hasView rdf:resouce="{$ANNO/URL/text()}"/> ,
+                    ( <edm:hasView rdf:resource="{$ANNO/URL/text()}"/> ,
                         <rdfs:seeAlso rdf:resource="{$ANNO/URL/text()}"/>
                     )
                 
