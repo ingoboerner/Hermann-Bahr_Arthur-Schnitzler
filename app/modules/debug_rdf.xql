@@ -18,15 +18,19 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 :)
  (: lod:person("A002001")  :) 
  
+ (: lod:person("A002005 ") :)
+ 
   (: lod:place("A000250") :)
   
   (: lod:place("A000313") :)
 
 (: lod:resource("D041003") :)
  
-(:  lod:resource("L041527") :)
+(:   lod:resource("L041527") :)
  
-(:  lod:resource("L041000") :)
+  (: lod:resource("L041000") :)
+  
+ (: lod:resource("L041106") :)
  
 (:   lod:institution("A080353") :)
  
@@ -46,7 +50,7 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 
 (: lod:work("A020008") :) 
 
-(:  lod:work("A020021") :)
+(:    lod:work("A020021") :)
 
 (:   
 
@@ -68,6 +72,9 @@ import module namespace lod="http://bahrschnitzler.acdh.oeaw.ac.at/lod" at "rdf.
 (:  lod:dumpTypeRDF("places")  :)
 (:  lod:dumpTypeRDF("institutions") :)
 (:  lod:dumpTypeRDF("works") :)
+
+(: dump everything :)
+ 
 let $dumps := ("diaries", "letters", "texts", "persons", "places", "institutions", "works")
 return
     for $file in $dumps

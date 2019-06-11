@@ -54,7 +54,7 @@ declare function lod:person($id as xs:string) {
             
             
             <crm:P1_is_identified_by rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$id}"/>
-            <owl:sameAs rdf:resource="{$gnd}"/>
+            {if ($gnd != "") then <owl:sameAs rdf:resource="{$gnd}"/> else () }
         </rdf:Description>
         
 };
@@ -391,7 +391,7 @@ declare function lod:getCorrespondenceEvents($id as xs:string) {
 declare function local:getTheatermuseumID($id as xs:string) {
     let $signatur := collection($config:data-root)/id($id)//tei:msIdentifier[contains(./tei:repository,'Theatermuseum')]/tei:idno/string()
     let $tm-query-id := "HS_" || replace(substring-after($signatur,'HS '),' ','')
-    let $request-url := "https://www.theatermuseum.at/onlinesammlung/?rand=3&amp;extended=1&amp;id=11694&amp;L=0&amp;ext[object_number]=HS_AM23337Ba&amp;ext[dated-from-acad]=ad&amp;ext[dated-to-acad]=ad&amp;view=0&amp;type=686&amp;no_cache=1&amp;jsrand=0.7411997926468572"
+    let $request-url := "https://www.theatermuseum.at/onlinesammlung/?rand=3&amp;extended=1&amp;id=11694&amp;L=0&amp;ext[object_number]=" || $tm-query-id || "&amp;ext[dated-from-acad]=ad&amp;ext[dated-to-acad]=ad&amp;view=0&amp;type=686&amp;no_cache=1&amp;jsrand=0.7411997926468572"
     let $request := <http:request href="{$request-url}" method="GET"/>
     let $response := try { http:send-request($request) } catch * { () }
     
